@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-25T16:22:56 IST" name="Default suite" finished-at="2023-01-25T16:23:08 IST" duration-ms="11378">
+    <groups>
+    </groups>
+    <test started-at="2023-01-25T16:22:56 IST" name="Default test" finished-at="2023-01-25T16:23:08 IST" duration-ms="11378">
+      <class name="com.facebook.FacebookTestNG">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.facebook.FacebookTestNG@31fa1761]" started-at="2023-01-25T16:22:56 IST" name="browserLaunch" finished-at="2023-01-25T16:22:59 IST" duration-ms="2541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="getPage()[pri:0, instance:com.facebook.FacebookTestNG@31fa1761]" started-at="2023-01-25T16:22:59 IST" name="getPage" finished-at="2023-01-25T16:22:59 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPage -->
+        <test-method signature="login()[pri:1, instance:com.facebook.FacebookTestNG@31fa1761]" started-at="2023-01-25T16:22:59 IST" name="login" finished-at="2023-01-25T16:23:00 IST" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="screenshot1()[pri:2, instance:com.facebook.FacebookTestNG@31fa1761]" started-at="2023-01-25T16:23:00 IST" name="screenshot1" finished-at="2023-01-25T16:23:04 IST" duration-ms="4084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot1 -->
+        <test-method signature="createuser()[pri:3, instance:com.facebook.FacebookTestNG@31fa1761]" started-at="2023-01-25T16:23:04 IST" name="createuser" finished-at="2023-01-25T16:23:07 IST" duration-ms="3227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method signature="screenshot2()[pri:4, instance:com.facebook.FacebookTestNG@31fa1761]" started-at="2023-01-25T16:23:07 IST" name="screenshot2" finished-at="2023-01-25T16:23:07 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot2 -->
+        <test-method signature="getpage2()[pri:5, instance:com.facebook.FacebookTestNG@31fa1761]" started-at="2023-01-25T16:23:07 IST" name="getpage2" finished-at="2023-01-25T16:23:07 IST" depends-on-methods="com.facebook.FacebookTestNG.getPage" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpage2 -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:com.facebook.FacebookTestNG@31fa1761]" started-at="2023-01-25T16:23:07 IST" name="closeapp" finished-at="2023-01-25T16:23:08 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- com.facebook.FacebookTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
